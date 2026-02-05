@@ -1,1 +1,251 @@
-{{{}}}
+[
+    {
+      "id": "Q1",
+      "topic": "DevOps Culture",
+      "question": "What is a core principle of DevOps culture?",
+      "options": [
+        "Strict separation between development and operations teams",
+        "Collaboration and shared responsibility",
+        "Manual approval for every deployment",
+        "Avoiding automation"
+      ],
+      "answerIndex": 1,
+      "explanation": "DevOps culture emphasizes collaboration, communication, and shared ownership."
+    },
+    {
+      "id": "Q2",
+      "topic": "DevOps Culture",
+      "question": "Which practice best supports a DevOps mindset?",
+      "options": [
+        "Blaming individuals for failures",
+        "Siloed teams",
+        "Continuous feedback and learning",
+        "Annual releases"
+      ],
+      "answerIndex": 2,
+      "explanation": "Continuous feedback and learning help teams improve processes and reliability."
+    },
+    {
+      "id": "Q3",
+      "topic": "Version Control Systems",
+      "question": "What is the primary purpose of a version control system?",
+      "options": [
+        "Deploy applications to production",
+        "Track and manage changes to source code",
+        "Run automated tests",
+        "Monitor system performance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Version control systems track changes and enable collaboration."
+    },
+    {
+      "id": "Q4",
+      "topic": "Version Control Systems",
+      "question": "Which feature allows multiple developers to work on the same codebase safely?",
+      "options": [
+        "Containers",
+        "Branching and merging",
+        "Load balancing",
+        "Auto-scaling"
+      ],
+      "answerIndex": 1,
+      "explanation": "Branching and merging enable parallel development."
+    },
+    {
+      "id": "Q5",
+      "topic": "Plan with DevOps",
+      "question": "What is the main goal of planning in DevOps?",
+      "options": [
+        "Eliminate documentation",
+        "Align development work with business goals",
+        "Avoid customer feedback",
+        "Delay releases"
+      ],
+      "answerIndex": 1,
+      "explanation": "Planning ensures development aligns with business and customer needs."
+    },
+    {
+      "id": "Q6",
+      "topic": "Plan with DevOps",
+      "question": "Which artifact is commonly used for tracking work in DevOps planning?",
+      "options": [
+        "Runbooks",
+        "Backlogs",
+        "Docker images",
+        "Load balancers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Backlogs help prioritize and track planned work."
+    },
+    {
+      "id": "Q7",
+      "topic": "Continuous Integration",
+      "question": "What is the primary goal of Continuous Integration?",
+      "options": [
+        "Automatically deploy to production",
+        "Frequently integrate code changes into a shared repository",
+        "Eliminate the need for testing",
+        "Remove the need for branches"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Integration aims to detect integration issues early."
+    },
+    {
+      "id": "Q8",
+      "topic": "Continuous Integration",
+      "question": "Which activity is typically triggered by a CI pipeline?",
+      "options": [
+        "Manual code reviews only",
+        "Automated builds and tests",
+        "Database backups",
+        "User acceptance testing"
+      ],
+      "answerIndex": 1,
+      "explanation": "CI pipelines automatically build and test code changes."
+    },
+    {
+      "id": "Q9",
+      "topic": "Continuous Delivery",
+      "question": "What does Continuous Delivery ensure?",
+      "options": [
+        "Code is always deployable",
+        "Every change is deployed automatically",
+        "No need for testing",
+        "Manual configuration of servers"
+      ],
+      "answerIndex": 0,
+      "explanation": "Continuous Delivery ensures software can be released at any time."
+    },
+    {
+      "id": "Q10",
+      "topic": "Continuous Delivery",
+      "question": "How does Continuous Delivery differ from Continuous Deployment?",
+      "options": [
+        "It removes automation",
+        "It requires manual approval before production release",
+        "It skips testing",
+        "It avoids CI pipelines"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Delivery may include a manual approval step."
+    },
+    {
+      "id": "Q11",
+      "topic": "Continuous Deployment",
+      "question": "What defines Continuous Deployment?",
+      "options": [
+        "Deployments occur only weekly",
+        "Every successful change is automatically deployed to production",
+        "Deployments require manual intervention",
+        "Only infrastructure is automated"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Deployment automatically releases every validated change."
+    },
+    {
+      "id": "Q12",
+      "topic": "Continuous Deployment",
+      "question": "What is a key risk of Continuous Deployment?",
+      "options": [
+        "Slower feedback",
+        "Increased manual work",
+        "Faulty changes reaching production",
+        "Lack of automation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Without proper testing, faulty changes can reach production."
+    },
+    {
+      "id": "Q13",
+      "topic": "Infrastructure as Code",
+      "question": "What is Infrastructure as Code (IaC)?",
+      "options": [
+        "Managing infrastructure manually",
+        "Defining infrastructure using machine-readable configuration files",
+        "Writing application source code",
+        "Monitoring infrastructure performance"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC uses code to provision and manage infrastructure."
+    },
+    {
+      "id": "Q14",
+      "topic": "Infrastructure as Code",
+      "question": "What is a major benefit of Infrastructure as Code?",
+      "options": [
+        "Reduced consistency",
+        "Faster and repeatable infrastructure provisioning",
+        "More manual configuration",
+        "Elimination of version control"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC enables consistent and repeatable infrastructure setup."
+    },
+    {
+      "id": "Q15",
+      "topic": "Version Control Systems",
+      "question": "Which action helps maintain a clean commit history?",
+      "options": [
+        "Committing large unrelated changes",
+        "Using meaningful commit messages",
+        "Avoiding branches",
+        "Ignoring merge conflicts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clear commit messages improve traceability and understanding."
+    },
+    {
+      "id": "Q16",
+      "topic": "DevOps Culture",
+      "question": "What role does automation play in DevOps?",
+      "options": [
+        "It replaces people entirely",
+        "It reduces human error and speeds up processes",
+        "It slows down deployments",
+        "It increases manual work"
+      ],
+      "answerIndex": 1,
+      "explanation": "Automation improves speed, reliability, and consistency."
+    },
+    {
+      "id": "Q17",
+      "topic": "Continuous Integration",
+      "question": "How often should developers integrate code in a CI environment?",
+      "options": [
+        "Once per month",
+        "Once per release",
+        "Frequently, ideally multiple times a day",
+        "Only at project completion"
+      ],
+      "answerIndex": 2,
+      "explanation": "Frequent integration helps catch issues early."
+    },
+    {
+      "id": "Q18",
+      "topic": "Plan with DevOps",
+      "question": "Which metric helps teams measure planning effectiveness?",
+      "options": [
+        "Lead time",
+        "CPU utilization",
+        "Disk I/O",
+        "Network latency"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lead time reflects how efficiently work moves from plan to production."
+    },
+    {
+      "id": "Q19",
+      "topic": "Continuous Delivery",
+      "question": "What is a common practice to support Continuous Delivery?",
+      "options": [
+        "Long-lived feature branches",
+        "Automated testing at multiple stages",
+        "Manual environment setup",
+        "Infrequent releases"
+      ],
+      "answerIndex": 1,
+      "explanation": "Automated testing ensures reliability across the pipeline."
+    }
+    
+  ]
+  

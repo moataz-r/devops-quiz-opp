@@ -245,7 +245,19 @@
       ],
       "answerIndex": 1,
       "explanation": "Automated testing ensures reliability across the pipeline."
+    },
+    {
+      "id": "Q20",
+      "topic": "Infrastructure as Code",
+      "question": "Why should infrastructure definitions be stored in version control?",
+      "options": [
+        "To prevent collaboration",
+        "To track changes and enable rollbacks",
+        "To slow down deployments",
+        "To avoid automation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Version control provides history, traceability, and rollback capabilities."
     }
-    
   ]
   
